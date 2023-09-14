@@ -10,5 +10,5 @@
 </script>
 
 <h1>{greet.toUpperCase()} {name}!</h1>
-<img src={src} alt="{name} image" height=300 width=200 />
+<img {src} alt="{name} image" height=300 width=200 />
 
