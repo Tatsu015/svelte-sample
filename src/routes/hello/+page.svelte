@@ -3,4 +3,8 @@
     <meta name="description" content="Initial tutorial page" />
 </svelte:head>
 
-<h1>Hello world!</h1>
+<script>
+    let name = "World";
+</script>
+
+<h1>Hello {name}!</h1>
