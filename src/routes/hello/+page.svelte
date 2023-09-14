@@ -4,7 +4,8 @@
 </svelte:head>
 
 <script>
-    let name = "World";
+    let greet = "Hello"
+    let name = "World".toUpperCase();
 </script>
 
-<h1>Hello {name}!</h1>
+<h1>{greet.toUpperCase()} {name}!</h1>
