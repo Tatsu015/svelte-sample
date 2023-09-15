@@ -11,4 +11,12 @@
 
 <h1>{greet.toUpperCase()} {name}!</h1>
 <img {src} alt="{name} image" height=300 width=200 />
+<p>styled text</p>
 
+<style>
+    p {
+        color: purple;
+        font-family: monospace;
+        font-size: 2rem;
+    }
+</style>
