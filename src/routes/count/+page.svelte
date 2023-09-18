@@ -30,12 +30,18 @@
         nums.push(nums.length+1)
         nums = nums
     }
+    function addNumByIndex(){
+        console.log(nums)
+        nums[nums.length] = nums.length+1
+    }
+
 </script>
 
 <button on:click={toggleDebug}>DEBUG : {debug}</button>
 <button on:click={countUp}>Count UP!</button>
 <button on:click={addNum}>Add List!!</button>
 <button on:click={addNumUpdatable}>Add List with Udate!!</button>
+<button on:click={addNumByIndex}>Add List by index!!</button>
 <p>list total : {sum}</p>
 <p>COUNT : {count}</p>
 <p>WCOUNT : {doubleCount}</p>
