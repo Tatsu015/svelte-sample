@@ -14,6 +14,7 @@
 <img {src} alt="{name} image" height=300 width=200 />
 <p>styled text</p>
 <MyComponent name="aaa"/>
+<MyComponent />
 
 <style>
     p {
