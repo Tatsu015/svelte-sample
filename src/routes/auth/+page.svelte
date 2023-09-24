@@ -8,8 +8,6 @@
 
 {#if loggedIn == true}
     <button on:click={toggle}>Logout</button>
-{/if}
-
-{#if loggedIn == false}
+{:else}
     <button on:click={toggle}>Login</button>
 {/if}
